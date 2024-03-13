@@ -1,0 +1,18 @@
+# Ignore compiled output and temporary files
+*.o
+*.out
+*.log
+*.pyc
+/tmp/
+
+# Ignore specific files
+sensitive-file.txt
+credentials.json
+
+# Ignore directories
+node_modules/
+dist/
+
+# Virtual Environment
+seleniumenv/
+__pycache__/
