@@ -1,10 +1,10 @@
-Simple Banking Project
+# Simple Banking Project
 This is a simple bank project demonstrating object-oriented programming concepts in Python.
 
-Description
+# Description
 This project simulates a basic bank system with the following functionalities:
 
-Creating bank accounts for customers
+# Creating bank accounts for customers
 Depositing and withdrawing money from accounts
 Checking the account balance
 The project is implemented using object-oriented programming principles, with each bank account represented as an object.
