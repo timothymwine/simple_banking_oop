@@ -1,7 +1,6 @@
 
-class User():
+class Account():
 
-# This is the parent class
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
@@ -14,8 +13,7 @@ class User():
         print("Age :", self.age)
         print("Gender :", self.gender)
 
-class Bank(User):
-# This the child class and it will be inheriting the parent class properties
+class Bank(Account):
 
     def __init__(self, name, age, gender):
         super().__init__(name, age, gender)
