@@ -25,18 +25,19 @@ class Bank(Account):
         print("Balance has been updated to: Ushs", self.balance)
 
     def withdraw(self, amount):
-        print("in withdraw method")
         self.amount = amount
         if self.amount > self.balance:
             print("Insufficient Funds | Balance available is : Ushs", self.balance)
         else:
             self.balance = self.balance - self.amount
             print("Remaining balance is: Ushs", self.balance)
-        print("in withdraw method")
 
-    
+    def view_balnce(self):
+        self.show_details()
+        print("Remaining balance is: Ushs", self.balance)
+
             
 
 
 user1 = Bank("Jon Doe", "25", "Male")
-user1.withdraw(10000)
+user1.view_balnce()
